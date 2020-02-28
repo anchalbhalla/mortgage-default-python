@@ -15,8 +15,8 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html')
 
-@app.route('/watson', methods=['POST','GET'])
-def api_call():
+@app.route('/result', methods=['POST','GET'])
+def result():
 
 	if request.method == 'POST':
 		# PassengerId = request.args.get('passengerid')
