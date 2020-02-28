@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 COPY static_app /app
 
 EXPOSE 8080
-CMD ["python","server.py"]
+CMD ["python","app.py"]
