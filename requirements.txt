@@ -1,1 +1,6 @@
 Flask==0.10.1
+urllib3==1.25.8
+requests==2.23.0
+jsonify==0.5
+jsonlib==1.6.1
+
