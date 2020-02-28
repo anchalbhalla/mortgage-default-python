@@ -108,7 +108,7 @@ img{
 <img src="{{url_for('static', filename='images/mortgage.png')}}" align="right" width=500px>
 <div class="container"> 
   
-  <form id = "myForm" action= "http://localhost:8080/watson" method="POST">
+  <form id = "myForm" action= "{{ url_for('result') }}" method="POST">
 
 <h4>Enter the following details of the customer: </h4> 
 
