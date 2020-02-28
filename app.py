@@ -3,7 +3,7 @@ import urllib3, requests
 
 app = Flask(__name__)
 #HOST = '0.0.0.0'
-PORT = 8080
+#PORT = 8080
 
 # wml_credentials={
 #   "password": "31dbf7ca-13bc-4b59-97ad-93db13a5c5f3",
