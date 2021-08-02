@@ -5,11 +5,7 @@ app = Flask(__name__)
 #HOST = '0.0.0.0'
 #PORT = 8080
 
-# wml_credentials={
-#   "password": "31dbf7ca-13bc-4b59-97ad-93db13a5c5f3",
-#   "url": "https://us-south.ml.cloud.ibm.com",
-#   "username": "59f50ecd-4ee3-4410-a687-077315fa06c3"
-# }
+
 
 @app.route('/', methods=['GET'])
 def index():
