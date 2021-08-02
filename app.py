@@ -42,7 +42,7 @@ def result():
 
 
 
-		apikey = "7nGUIe30VuAvMitbKVTXtGOxwFT1OSzGIklmrPRsjrnv"
+		apikey = "enter-key"
 
 		# Get an IAM token from IBM Cloud
 		url     = "https://iam.bluemix.net/oidc/token"
